@@ -1,0 +1,79 @@
+body{
+  margin: 0px;
+  background-image: url(br3.png);
+}
+
+.head{
+      
+  background-color:rgba(255, 25, 295, 0.911);
+  background-image: url(br3.png);
+  border:solid;
+  font-family: fantasy;
+   }
+
+   .note{
+     background-image: url(bg2.png);
+     border: dotted;
+     
+   }
+
+   .menu{
+     display: flex;
+     justify-content: start;
+    
+     padding: 25px;
+     font-size: 25px;
+     font-family: sans-serif;
+     font-weight: 400;
+     color: #000000;
+     
+     
+   }
+
+   .img{
+    border: 2px solid #0f0cb8;
+    padding: 10%;
+   }
+
+.grid {
+  background: rgba(4, 131, 68, 0.589);
+  background-color: #F0F8FF;
+  background-image: url(br3.jpg);
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  text-align: left;
+  flex-wrap: wrap;
+}
+
+.origami {
+  border: 1px solid #60720f;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  width: 200px;
+  height: 500px;
+  padding: 50px;
+  background-color:#1dcea29f;
+  border-width: 6px;
+  
+}
+.origami:hover{
+  transform: scale(1.6);
+  
+}
+
+a:link{
+  transform: scale(1.6);
+  color: black;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+
+a:visited{
+  color: black;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+.img:hover{
+  background-color: rgba(4, 167, 167, 0.349);
+  color:  rgb(167, 184, 15);
+}
